@@ -7,6 +7,7 @@
 //
 
 #import "REVANViewController.h"
+#import "UIView+XWExtension.h"
 
 @interface REVANViewController ()
 
@@ -17,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
 }
 
 - (void)didReceiveMemoryWarning

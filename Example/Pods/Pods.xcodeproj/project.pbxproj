@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05915638D570F63F7CD17127D174EEE8 /* Pods-RevanBaseModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 440B61FC095BA4E4AEC298BBFC1258F8 /* Pods-RevanBaseModule_Tests-dummy.m */; };
+		0639D0B7DBAA2E5407DDDB80F6FD42D6 /* UIImage+XWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D958BD89790CC620B7EA6F8C373945 /* UIImage+XWExtension.m */; };
+		070337D75ABB2D10F552BC713518BC32 /* RevanBaseModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 773346EDFCDA9B1169375C524728C3F0 /* RevanBaseModule-dummy.m */; };
+		2D9DAF1A29E7E70C299BC309A741C5DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2FDA70C45DA8AAEB827E270EF83C56B9 /* Pods-RevanBaseModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B71EA85E2A157BDF0A14935B2E9CA /* Pods-RevanBaseModule_Example-dummy.m */; };
+		41A5DB2A3D612B2D1EA9BFAF43EF0A49 /* UIView+XWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B30CE3B7117CCA70E19D60DB0EC5B72F /* UIView+XWExtension.m */; };
+		4D4C0CC48F0C3F84EFB4EFDA1E236CA6 /* RevanBaseModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2618DC21DF996410EDD5B37D892F8C /* RevanBaseModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68497658FFEC8FC134BE591BE8B542A2 /* UIViewController+Dismis_FileUploadPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B90D9C3AE46A92C08D3F215ABA668D /* UIViewController+Dismis_FileUploadPanel.m */; };
+		7B81F4CDD1D61D17F3786B5B660C4476 /* UIImage+XWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E4782497BD12433EABB342B67C184CB5 /* UIImage+XWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16F88FE8394D27C41B55EFCB860E3D3 /* Pods-RevanBaseModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65480380A98AEA0B8F3C620060711941 /* Pods-RevanBaseModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C08E95E47165175F12F6DEB8F7AC044C /* UIView+XWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A08608EA5CA446BDBDCF1BFBFEA632EA /* UIView+XWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCC5C5CCBA65E224CEBA54B3D3AE8D00 /* UIViewController+Dismis_FileUploadPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = E287449E7AAD99632964E6ECD068D0CD /* UIViewController+Dismis_FileUploadPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0E44566228357531377D75BEDB58B97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D713E2E43BA4BCB0BEA90EF283A8ED48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FEE3146E1F470C49AA129E4EC56B6E4C /* Pods-RevanBaseModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E66A6A35A775A13A7A8467FB020792D7 /* Pods-RevanBaseModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07543B966BE0F0A96F3526F60D16C1AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24FEE7851754EEC2E14E116EAC48B5DB;
+			remoteInfo = "Pods-RevanBaseModule_Example";
+		};
+		6FDCA504E2EFB63F7F9EA1CDACB913F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0207550C3B91ED0AB1792312804DE09A;
+			remoteInfo = RevanBaseModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006B71EA85E2A157BDF0A14935B2E9CA /* Pods-RevanBaseModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RevanBaseModule_Example-dummy.m"; sourceTree = "<group>"; };
+		00BDBA219530946322113CD67836684D /* RevanBaseModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevanBaseModule.xcconfig; sourceTree = "<group>"; };
+		042261443205FFD75390BFF4C787555A /* Pods_RevanBaseModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RevanBaseModule_Example.framework; path = "Pods-RevanBaseModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4797D40F0280CC53A7F529EF911215 /* Pods-RevanBaseModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevanBaseModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		134E4230BFD6B9AEBCB66282B9337BB0 /* Pods-RevanBaseModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevanBaseModule_Example-Info.plist"; sourceTree = "<group>"; };
+		1DA4A6BD780DCA2782DDC2D285AA4501 /* Pods-RevanBaseModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RevanBaseModule_Tests.modulemap"; sourceTree = "<group>"; };
+		2E5ED7030F8CA62B133729BD674ABCBD /* RevanBaseModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevanBaseModule.framework; path = RevanBaseModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D958BD89790CC620B7EA6F8C373945 /* UIImage+XWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XWExtension.m"; sourceTree = "<group>"; };
+		31989781B9DCCA979ACE5805F0DFCC61 /* Pods-RevanBaseModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevanBaseModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		440B61FC095BA4E4AEC298BBFC1258F8 /* Pods-RevanBaseModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RevanBaseModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		65480380A98AEA0B8F3C620060711941 /* Pods-RevanBaseModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RevanBaseModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		68F55EFB130F1B1AB95354257217E7D7 /* RevanBaseModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RevanBaseModule-Info.plist"; sourceTree = "<group>"; };
+		6E8B437D3A5E5549C4C32AE3F362C416 /* RevanBaseModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevanBaseModule-prefix.pch"; sourceTree = "<group>"; };
+		70AC76F3FDCF7F68B518967B96FF156D /* Pods-RevanBaseModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevanBaseModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		773346EDFCDA9B1169375C524728C3F0 /* RevanBaseModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevanBaseModule-dummy.m"; sourceTree = "<group>"; };
+		901DE802CC6EE61669FDA548EFADAA98 /* Pods-RevanBaseModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RevanBaseModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95A7379B38B5F422908381D7E50215E0 /* RevanBaseModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RevanBaseModule.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08608EA5CA446BDBDCF1BFBFEA632EA /* UIView+XWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+XWExtension.h"; sourceTree = "<group>"; };
+		AA103442CF304ADB614CFA410D1079C3 /* Pods_RevanBaseModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RevanBaseModule_Tests.framework; path = "Pods-RevanBaseModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDDC63FA37AE3A4F10D70B52B997AFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B1DD90EE1005F4889C17887485B734F1 /* Pods-RevanBaseModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevanBaseModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B30CE3B7117CCA70E19D60DB0EC5B72F /* UIView+XWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+XWExtension.m"; sourceTree = "<group>"; };
+		B6B694779A7F37AE1AF68D2A6AA9C3EB /* Pods-RevanBaseModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RevanBaseModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8E42B049DAFD5F6B286D134DA36DA63 /* Pods-RevanBaseModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevanBaseModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CA2618DC21DF996410EDD5B37D892F8C /* RevanBaseModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevanBaseModule-umbrella.h"; sourceTree = "<group>"; };
+		CD852901ECE0959538C9017C468E9890 /* Pods-RevanBaseModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RevanBaseModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D683F19648F12E43BFE153DBDC00A9AA /* Pods-RevanBaseModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RevanBaseModule_Example.modulemap"; sourceTree = "<group>"; };
+		D6CA670F26FD120C2753E13E4AFAC8BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E0B90D9C3AE46A92C08D3F215ABA668D /* UIViewController+Dismis_FileUploadPanel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Dismis_FileUploadPanel.m"; sourceTree = "<group>"; };
+		E287449E7AAD99632964E6ECD068D0CD /* UIViewController+Dismis_FileUploadPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Dismis_FileUploadPanel.h"; sourceTree = "<group>"; };
+		E4782497BD12433EABB342B67C184CB5 /* UIImage+XWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+XWExtension.h"; sourceTree = "<group>"; };
+		E66A6A35A775A13A7A8467FB020792D7 /* Pods-RevanBaseModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RevanBaseModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EB378BF56A58D584BAB585BCE082EF9F /* RevanBaseModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RevanBaseModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F770050F3DD445F9406E5098364AC3D6 /* Pods-RevanBaseModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevanBaseModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FD41D5AC119F4186EB491BF41235ED1F /* Pods-RevanBaseModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevanBaseModule_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41489E6DB2DFFE0DE559598511BFEF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E44566228357531377D75BEDB58B97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2B25DC301BEC4608F41A26C0D49DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9DAF1A29E7E70C299BC309A741C5DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2960BD00272F2CD31ECD641508609C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D713E2E43BA4BCB0BEA90EF283A8ED48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041EB031006F16E7F292316E3CE6A907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042261443205FFD75390BFF4C787555A /* Pods_RevanBaseModule_Example.framework */,
+				AA103442CF304ADB614CFA410D1079C3 /* Pods_RevanBaseModule_Tests.framework */,
+				2E5ED7030F8CA62B133729BD674ABCBD /* RevanBaseModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D1C6B301D3A3FA06A603B12AD5C46FB /* Pods-RevanBaseModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D683F19648F12E43BFE153DBDC00A9AA /* Pods-RevanBaseModule_Example.modulemap */,
+				B6B694779A7F37AE1AF68D2A6AA9C3EB /* Pods-RevanBaseModule_Example-acknowledgements.markdown */,
+				B1DD90EE1005F4889C17887485B734F1 /* Pods-RevanBaseModule_Example-acknowledgements.plist */,
+				006B71EA85E2A157BDF0A14935B2E9CA /* Pods-RevanBaseModule_Example-dummy.m */,
+				CD852901ECE0959538C9017C468E9890 /* Pods-RevanBaseModule_Example-frameworks.sh */,
+				134E4230BFD6B9AEBCB66282B9337BB0 /* Pods-RevanBaseModule_Example-Info.plist */,
+				65480380A98AEA0B8F3C620060711941 /* Pods-RevanBaseModule_Example-umbrella.h */,
+				0A4797D40F0280CC53A7F529EF911215 /* Pods-RevanBaseModule_Example.debug.xcconfig */,
+				F770050F3DD445F9406E5098364AC3D6 /* Pods-RevanBaseModule_Example.release.xcconfig */,
+			);
+			name = "Pods-RevanBaseModule_Example";
+			path = "Target Support Files/Pods-RevanBaseModule_Example";
+			sourceTree = "<group>";
+		};
+		0D7BDF941FE439646D296519DEF8B7B1 /* Pods-RevanBaseModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1DA4A6BD780DCA2782DDC2D285AA4501 /* Pods-RevanBaseModule_Tests.modulemap */,
+				901DE802CC6EE61669FDA548EFADAA98 /* Pods-RevanBaseModule_Tests-acknowledgements.markdown */,
+				31989781B9DCCA979ACE5805F0DFCC61 /* Pods-RevanBaseModule_Tests-acknowledgements.plist */,
+				440B61FC095BA4E4AEC298BBFC1258F8 /* Pods-RevanBaseModule_Tests-dummy.m */,
+				FD41D5AC119F4186EB491BF41235ED1F /* Pods-RevanBaseModule_Tests-Info.plist */,
+				E66A6A35A775A13A7A8467FB020792D7 /* Pods-RevanBaseModule_Tests-umbrella.h */,
+				70AC76F3FDCF7F68B518967B96FF156D /* Pods-RevanBaseModule_Tests.debug.xcconfig */,
+				C8E42B049DAFD5F6B286D134DA36DA63 /* Pods-RevanBaseModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-RevanBaseModule_Tests";
+			path = "Target Support Files/Pods-RevanBaseModule_Tests";
+			sourceTree = "<group>";
+		};
+		1C1855119008E13E6FE0C73B2F169ECA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D1C6B301D3A3FA06A603B12AD5C46FB /* Pods-RevanBaseModule_Example */,
+				0D7BDF941FE439646D296519DEF8B7B1 /* Pods-RevanBaseModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		25BE3D9180AAEC8110EF525880F51D96 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E4782497BD12433EABB342B67C184CB5 /* UIImage+XWExtension.h */,
+				30D958BD89790CC620B7EA6F8C373945 /* UIImage+XWExtension.m */,
+				A08608EA5CA446BDBDCF1BFBFEA632EA /* UIView+XWExtension.h */,
+				B30CE3B7117CCA70E19D60DB0EC5B72F /* UIView+XWExtension.m */,
+			);
+			name = Category;
+			path = RevanBaseModule/Classes/Category;
+			sourceTree = "<group>";
+		};
+		78DDC4C2233C9C90DECC9689EB7FCF25 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D6CA670F26FD120C2753E13E4AFAC8BC /* LICENSE */,
+				AFDDC63FA37AE3A4F10D70B52B997AFB /* README.md */,
+				EB378BF56A58D584BAB585BCE082EF9F /* RevanBaseModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AE2EE26B9E41B46F1BB205913A9E8662 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95A7379B38B5F422908381D7E50215E0 /* RevanBaseModule.modulemap */,
+				00BDBA219530946322113CD67836684D /* RevanBaseModule.xcconfig */,
+				773346EDFCDA9B1169375C524728C3F0 /* RevanBaseModule-dummy.m */,
+				68F55EFB130F1B1AB95354257217E7D7 /* RevanBaseModule-Info.plist */,
+				6E8B437D3A5E5549C4C32AE3F362C416 /* RevanBaseModule-prefix.pch */,
+				CA2618DC21DF996410EDD5B37D892F8C /* RevanBaseModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RevanBaseModule";
+			sourceTree = "<group>";
+		};
+		B20088E4A2EF27EDCB9628DDB4EC3371 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E287449E7AAD99632964E6ECD068D0CD /* UIViewController+Dismis_FileUploadPanel.h */,
+				E0B90D9C3AE46A92C08D3F215ABA668D /* UIViewController+Dismis_FileUploadPanel.m */,
+			);
+			name = Main;
+			path = RevanBaseModule/Classes/Main;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D4EB18B90CE8BF4C54973D657154E265 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				041EB031006F16E7F292316E3CE6A907 /* Products */,
+				1C1855119008E13E6FE0C73B2F169ECA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4EB18B90CE8BF4C54973D657154E265 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D77F31CC8310EE8B1C2BC7E36A3C9491 /* RevanBaseModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D77F31CC8310EE8B1C2BC7E36A3C9491 /* RevanBaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				25BE3D9180AAEC8110EF525880F51D96 /* Category */,
+				B20088E4A2EF27EDCB9628DDB4EC3371 /* Main */,
+				78DDC4C2233C9C90DECC9689EB7FCF25 /* Pod */,
+				AE2EE26B9E41B46F1BB205913A9E8662 /* Support Files */,
+			);
+			name = RevanBaseModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9AB341E0576FFFFA3412C13C734ADDD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16F88FE8394D27C41B55EFCB860E3D3 /* Pods-RevanBaseModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13C13C095D2B88AABF658BFCBE13901 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4C0CC48F0C3F84EFB4EFDA1E236CA6 /* RevanBaseModule-umbrella.h in Headers */,
+				7B81F4CDD1D61D17F3786B5B660C4476 /* UIImage+XWExtension.h in Headers */,
+				C08E95E47165175F12F6DEB8F7AC044C /* UIView+XWExtension.h in Headers */,
+				CCC5C5CCBA65E224CEBA54B3D3AE8D00 /* UIViewController+Dismis_FileUploadPanel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5257DDEAE49338CC828817AC91DABD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE3146E1F470C49AA129E4EC56B6E4C /* Pods-RevanBaseModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0207550C3B91ED0AB1792312804DE09A /* RevanBaseModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71FAEE2C3376FFE0060119865E0D23B /* Build configuration list for PBXNativeTarget "RevanBaseModule" */;
+			buildPhases = (
+				C13C13C095D2B88AABF658BFCBE13901 /* Headers */,
+				E0FF5BE4759BC536B0E90299C5026A32 /* Sources */,
+				EA2960BD00272F2CD31ECD641508609C /* Frameworks */,
+				71257F05C61E5B6997D31FC2418441E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevanBaseModule;
+			productName = RevanBaseModule;
+			productReference = 2E5ED7030F8CA62B133729BD674ABCBD /* RevanBaseModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		24FEE7851754EEC2E14E116EAC48B5DB /* Pods-RevanBaseModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF764CD5B66173AC26D366A0392B8765 /* Build configuration list for PBXNativeTarget "Pods-RevanBaseModule_Example" */;
+			buildPhases = (
+				9AB341E0576FFFFA3412C13C734ADDD5 /* Headers */,
+				E90CA54F37A424E7D6F670486849490C /* Sources */,
+				8B2B25DC301BEC4608F41A26C0D49DE8 /* Frameworks */,
+				A3103160693E4E34EFBB859C4C3367AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF615FC5D8A63C1F6FB9F84561756557 /* PBXTargetDependency */,
+			);
+			name = "Pods-RevanBaseModule_Example";
+			productName = "Pods-RevanBaseModule_Example";
+			productReference = 042261443205FFD75390BFF4C787555A /* Pods_RevanBaseModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		535DA71DF82807DD6FFB95E8D35E29FB /* Pods-RevanBaseModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF57423D2DF028B2F279216286C04D0 /* Build configuration list for PBXNativeTarget "Pods-RevanBaseModule_Tests" */;
+			buildPhases = (
+				FC5257DDEAE49338CC828817AC91DABD /* Headers */,
+				8439188AB39F484988E2B554487EEC81 /* Sources */,
+				41489E6DB2DFFE0DE559598511BFEF5E /* Frameworks */,
+				B137D14EA00A5F34E1C3F4DCC52156CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E60F325C3E95B3126EC2CD1EFE68FC7 /* PBXTargetDependency */,
+			);
+			name = "Pods-RevanBaseModule_Tests";
+			productName = "Pods-RevanBaseModule_Tests";
+			productReference = AA103442CF304ADB614CFA410D1079C3 /* Pods_RevanBaseModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 041EB031006F16E7F292316E3CE6A907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24FEE7851754EEC2E14E116EAC48B5DB /* Pods-RevanBaseModule_Example */,
+				535DA71DF82807DD6FFB95E8D35E29FB /* Pods-RevanBaseModule_Tests */,
+				0207550C3B91ED0AB1792312804DE09A /* RevanBaseModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71257F05C61E5B6997D31FC2418441E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3103160693E4E34EFBB859C4C3367AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B137D14EA00A5F34E1C3F4DCC52156CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8439188AB39F484988E2B554487EEC81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05915638D570F63F7CD17127D174EEE8 /* Pods-RevanBaseModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FF5BE4759BC536B0E90299C5026A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070337D75ABB2D10F552BC713518BC32 /* RevanBaseModule-dummy.m in Sources */,
+				0639D0B7DBAA2E5407DDDB80F6FD42D6 /* UIImage+XWExtension.m in Sources */,
+				41A5DB2A3D612B2D1EA9BFAF43EF0A49 /* UIView+XWExtension.m in Sources */,
+				68497658FFEC8FC134BE591BE8B542A2 /* UIViewController+Dismis_FileUploadPanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90CA54F37A424E7D6F670486849490C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDA70C45DA8AAEB827E270EF83C56B9 /* Pods-RevanBaseModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E60F325C3E95B3126EC2CD1EFE68FC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RevanBaseModule_Example";
+			target = 24FEE7851754EEC2E14E116EAC48B5DB /* Pods-RevanBaseModule_Example */;
+			targetProxy = 07543B966BE0F0A96F3526F60D16C1AB /* PBXContainerItemProxy */;
+		};
+		CF615FC5D8A63C1F6FB9F84561756557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RevanBaseModule;
+			target = 0207550C3B91ED0AB1792312804DE09A /* RevanBaseModule */;
+			targetProxy = 6FDCA504E2EFB63F7F9EA1CDACB913F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4D6519ECDAD0F4C889B3B0806558B458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4797D40F0280CC53A7F529EF911215 /* Pods-RevanBaseModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RevanBaseModule_Example/Pods-RevanBaseModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RevanBaseModule_Example/Pods-RevanBaseModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B2AE2F9D2EDCE5B10BF8D8F28EF502C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F770050F3DD445F9406E5098364AC3D6 /* Pods-RevanBaseModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RevanBaseModule_Example/Pods-RevanBaseModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RevanBaseModule_Example/Pods-RevanBaseModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		869BD553ECC3160C773FA236494C1908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BDBA219530946322113CD67836684D /* RevanBaseModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevanBaseModule/RevanBaseModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevanBaseModule/RevanBaseModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevanBaseModule/RevanBaseModule.modulemap";
+				PRODUCT_MODULE_NAME = RevanBaseModule;
+				PRODUCT_NAME = RevanBaseModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9244B43DC87780DB0DD8E79F68C90B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E42B049DAFD5F6B286D134DA36DA63 /* Pods-RevanBaseModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RevanBaseModule_Tests/Pods-RevanBaseModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RevanBaseModule_Tests/Pods-RevanBaseModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B28E9556E7BBCB33D24CB626AD56CD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AC76F3FDCF7F68B518967B96FF156D /* Pods-RevanBaseModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RevanBaseModule_Tests/Pods-RevanBaseModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RevanBaseModule_Tests/Pods-RevanBaseModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EECD5B5601FEC4708001CEEFBF07B590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BDBA219530946322113CD67836684D /* RevanBaseModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevanBaseModule/RevanBaseModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevanBaseModule/RevanBaseModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevanBaseModule/RevanBaseModule.modulemap";
+				PRODUCT_MODULE_NAME = RevanBaseModule;
+				PRODUCT_NAME = RevanBaseModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF764CD5B66173AC26D366A0392B8765 /* Build configuration list for PBXNativeTarget "Pods-RevanBaseModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6519ECDAD0F4C889B3B0806558B458 /* Debug */,
+				6B2AE2F9D2EDCE5B10BF8D8F28EF502C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF57423D2DF028B2F279216286C04D0 /* Build configuration list for PBXNativeTarget "Pods-RevanBaseModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28E9556E7BBCB33D24CB626AD56CD22 /* Debug */,
+				9244B43DC87780DB0DD8E79F68C90B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71FAEE2C3376FFE0060119865E0D23B /* Build configuration list for PBXNativeTarget "RevanBaseModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869BD553ECC3160C773FA236494C1908 /* Debug */,
+				EECD5B5601FEC4708001CEEFBF07B590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

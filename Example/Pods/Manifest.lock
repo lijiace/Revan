@@ -1,0 +1,16 @@
+PODS:
+  - RevanBaseModule (0.1.0)
+
+DEPENDENCIES:
+  - RevanBaseModule (from `../`)
+
+EXTERNAL SOURCES:
+  RevanBaseModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RevanBaseModule: 523f9d0c89b31e8b1cf1da12c7262ea74db341d8
+
+PODFILE CHECKSUM: d19eb297f35dbd57ff10e764f74388e502cc6c20
+
+COCOAPODS: 1.8.4

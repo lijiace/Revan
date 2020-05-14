@@ -1,0 +1,22 @@
+{
+  "name": "RevanBaseModule",
+  "version": "0.1.0",
+  "summary": "A short description of RevanBaseModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lijiace/RevanBaseModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lijiace": "924488401@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lijiace/RevanBaseModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RevanBaseModule/Classes/**/*.{h,m}"
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RevanBaseModule'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RevanBaseModule.'
+  s.summary          = 'RevanBaseModule.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+RevanBaseModule 是一个非常棒的框架
                        DESC
 
   s.homepage         = 'https://github.com/lijiace/RevanBaseModule'
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RevanBaseModule/Classes/**/*'
+  s.source_files = 'RevanBaseModule/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'RevanBaseModule' => ['RevanBaseModule/Assets/*.png']
